@@ -58,6 +58,9 @@
     appearance: none;
     min-width: 0;
     max-width: 100%;
+    /* Match the height of the other inputs — iOS collapses an empty date
+       field to a tiny height until it's focused, once appearance is stripped. */
+    min-height: 3.125rem;
     box-sizing: border-box;
   }
   input[type="date"]::-webkit-date-and-time-value {
