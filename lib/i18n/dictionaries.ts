@@ -338,7 +338,7 @@ export const dictionaries = {
       contactTitle: "Kontakt",
       rights: "Všechna práva vyhrazena.",
       backToTop: "Nahoru",
-      builtNote: "Ukázkový web. Kontaktní údaje jsou reálné.",
+      madeBy: "Web vytvořil",
     },
   },
 
@@ -672,7 +672,7 @@ export const dictionaries = {
       contactTitle: "Contact",
       rights: "All rights reserved.",
       backToTop: "Back to top",
-      builtNote: "Demo site. Contact details are real.",
+      madeBy: "Website by",
     },
   },
 
@@ -1002,7 +1002,7 @@ export const dictionaries = {
       contactTitle: "Контакты",
       rights: "Все права защищены.",
       backToTop: "Наверх",
-      builtNote: "Демо-сайт. Контактные данные реальные.",
+      madeBy: "Сайт создан —",
     },
   },
 };

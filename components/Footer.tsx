@@ -73,7 +73,17 @@ export function Footer({ dict }: { dict: Dictionary }) {
             © {year} {site.name}. {dict.footer.rights}
           </p>
           <div className="flex items-center gap-5">
-            <span className="hidden sm:inline">{dict.footer.builtNote}</span>
+            <span className="text-muted">
+              {dict.footer.madeBy}{" "}
+              <a
+                href="https://getnovaflow.eu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-ink/70 underline-offset-2 transition-colors hover:text-ink hover:underline"
+              >
+                Nova Flow
+              </a>
+            </span>
             <a
               href="#top"
               className="group inline-flex items-center gap-1.5 text-ink/70 transition-colors hover:text-ink"
